@@ -1,0 +1,1 @@
+ffmpeg\ffmpeg.exe -i %1 -map_metadata -1 -fflags +bitexact -f wav -ac 1 -ar 48000 %~n1.wav
